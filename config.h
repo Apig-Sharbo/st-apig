@@ -8,6 +8,7 @@
 static char *font = "Noto Sans Mono:pixelsize=13:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
+    /* "Symbola:pixelsize=13:antialias=true:autohint=true", */ // For Systems that don't support libxft-bgra for colored emoji fonts
 	"JoyPixels:pixelsize=10:antialias=true:autohint=true",
 	"Noto Color Emoji:pixelsize=10:antialias=true:autohint=true",
 	"Inconsolata for Powerline:pixelsize=8:antialias=true:autohint=true",
